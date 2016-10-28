@@ -492,8 +492,20 @@
   effect: |
     Choose from the following energy types: fire, cold, lightning, acid, (or another at the GM’s discretion).  When you are attacked with that energy type, you gain resistance to the attack as follows:
       <ul>
-      <li><strong>Tier 1</strong> - Your defense scores are increased by 5 against the chosen attack type. </li>
-      <li><strong>Tier 2</strong> - Your defense scores are increased by 5 against the chosen attack type.</li>
+      <li><strong>Tier 1</strong> -   name: Energy Resistance (I - III)
+  prerequisite:
+  -  Energy OR 4 / 5 / 7
+  tags:
+  - Supernatural
+  cost:
+  - 3
+  description: |
+    Your specialization in a particular type of energy or general protection causes you to be resistant to that type of energy.
+  effect: |
+    Choose from the following energy types: fire, cold, lightning, acid, (or another at the GM’s discretion).  When you are attacked with that energy type, you gain resistance to the attack as follows:
+      <ul>
+      <li><strong>Tier 1</strong> - Your defense scores gain a total of +5 vs. the chosen energy type.</li>
+      <li><strong>Tier 2</strong> - Your defense scores gain a total of +10 vs. the chosen energy type.</li>
       <li><strong>Tier 3</strong> - You are immune to damage from the chosen attack type.</li>
       </ul>
 - !
